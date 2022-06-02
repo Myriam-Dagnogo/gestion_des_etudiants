@@ -1,0 +1,144 @@
+
+   
+*{
+    box-sizing:border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #b9b5b5;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+.menu{
+    background-color: blueviolet;
+    text-align: end;
+}
+
+
+/*connection*/
+.FormConnect{
+    width: 350px;
+    height: 450px;
+    background-color:#1f1f228f ;
+    
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom:0 ;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    border-radius: 5px;
+    border-top:5px solid rgba(135, 37, 173, 0.671) ;
+    border-bottom:5px solid rgba(135, 37, 173, 0.671) ;
+    box-shadow: 0 0 10px #000;
+    }
+.form-text{
+    font-size:32px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom:30px ;
+}
+.form-saisie span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.form-saisie input{
+width:100% ;
+font-size:16px ;
+outline: none;
+background-color: #1f1f22;
+color: #fff;
+margin: 10px 0;
+padding: 10px;
+border: 1px solid #fff ;
+border-radius: 8px;
+color: #fff;
+}
+.form-saisie input[type="submit"].btnConnect{
+  width: 100%;
+  font-size: 18px;
+  background-color: rgba(135, 37, 173, 0.671);  
+  color: #fff;
+  margin:209x 0 ;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.form-saisie input[type="submit"].btnConnect:hover{
+    background-color: #1d4adb;
+    color: #d0d0d8;
+}
+.form-saisie a{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(135, 37, 173, 0.671) ;
+
+} 
+
+ 
+/*deuxième div de section1*/
+.div2section1{
+    display:flex;
+    margin-top: 5px;
+   
+}
+/*troisième div section 1*/
+.div3section1{
+    background-color:#fff;
+    width: 50%;
+    height: 660px;
+}
+/*4ème div de section1*/
+.div4section1{
+    width: 50%;
+    height: 660px;
+    justify-content: flex-end;
+}
+    /*5ème div section1*/
+.etbien{
+       background-color: #63156d;
+       width: 600px;
+       height: 40px;
+       }
+.bjr{
+    font-size: 60px;
+    color:#63156d;
+    font-family: Adobe Caslon Pro Bold;
+    margin-right: 100px;
+    
+}
+.etbien{
+    color: #fff;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.jmap{
+    color: rgba(224, 5, 5, 0.685);
+    font-style: italic;
+    font-size: 20px;
+}
+.monnom{
+    font-size: 40px;
+    font-family:  times;
+    font-style: initial;
+    color: #fff;
+    text-decoration: none;
+}
+.monnom:hover {
+    background-color:grey;
+   
+}
+.row{
+    background-color: #000;
+    margin-top: 500px;
+}
+.td-none{
+    text-decoration: none;
+
+}
